@@ -52,3 +52,30 @@ body {
     font-weight: 700;
     line-height: normal;
 }
+
+.section-message {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 48px;
+
+}
+
+.section-message-2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
