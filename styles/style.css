@@ -1,0 +1,44 @@
+/* shared style for font */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header styles */
+
+.website-title {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 32px;
+
+    font-weight: 400;
+    padding-top: 177px;
+    padding-left: 530px;
+    padding-right: 531px;
+    padding-bottom: 0px;
+
+
+}
+
+.website-heading {
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+    /* 131.944% */
+    
+    
+}
+
+.banner-image {
+    background-image: url(../images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
