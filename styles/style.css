@@ -181,11 +181,15 @@ body {
 
 .image-1 {
     display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 
 }
 
 .image-2 {
     display: flex;
+    gap: 10px;
+
 }
 
 .subscribe-newsletter {
@@ -207,6 +211,7 @@ body {
     width: 648px;
     height: 72px;
     flex-shrink: 0;
+    margin-left: -5px;
 }
 
 .Subscribe {
