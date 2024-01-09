@@ -151,11 +151,9 @@ body {
 
 .product-image {
     background: #FFF;
-    align-items: end;
     padding-left: 140px;
     padding-right: 140px;
-    width: 1600px;
-    height: 7335px;
+
 
 
 }
@@ -181,7 +179,6 @@ body {
 .image-2 {
     display: flex;
 }
-
 .subscribe-newsletter {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -191,16 +188,23 @@ body {
     margin: auto;
 }
 
+
 .offer {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #FFF;
     margin: auto;
+    padding-top: 50px;
 }
 
 .offer-image {
     border-radius: 463px;
     border: 15px solid #F00;
     padding: 15px;
+    justify-content: space-between;
+    margin: auto;
+
 }
 
 
@@ -226,7 +230,6 @@ body {
 
 .footer-2 {
     align-items: center;
-    justify-content: center;
 }
 
 .footer-3 {
