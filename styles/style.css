@@ -51,6 +51,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
 
 .section-message {
@@ -81,6 +82,8 @@ body {
 }
 
 .welcome-party {
+    display: flex;
+    justify-content: space-between;
     background-image: url(../images/Vectorrr.png);
     width: 1320px;
     height: 600px;
@@ -90,36 +93,37 @@ body {
 
 }
 
-.welcome-party-heading {
+
+
+.welcome-party-heading{
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px;
-    /* 137.5% */
+    line-height: 88px; /* 137.5% */
     letter-spacing: 7.04px;
-    padding: 126px 552px 0px 126px;
+    padding: 57px 94px 230px 126px;
 }
+
+
+
 
 .party-paragraph {
-    color: rgba(255, 255, 255, 0.80);
+    /* color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
+    width: 697px;
+    padding: 326px 0px 214px 126px; */
+
+
 
 }
 
-.party-button {
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-transform: uppercase;
+
+
+
+.image-2024 {
+    padding: 68.11px 138px 67.23px 0px;
 }
 
 
