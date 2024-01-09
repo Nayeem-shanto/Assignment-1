@@ -3,13 +3,13 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
 
 /* header styles */
 
-.website-title {
+.banner-title {
     color: #FFF;
     text-align: center;
 
@@ -24,7 +24,7 @@ body {
 
 }
 
-.website-heading {
+.banner-heading {
     color: #FFF;
     text-align: center;
     font-size: 72px;
@@ -107,7 +107,7 @@ body {
     line-height: 88px;
     /* 137.5% */
     letter-spacing: 7.04px;
-    padding: 57px 94px 230px 126px;
+    padding: 126px 94px 126px;
 }
 
 .welcome-party-paragraph {
@@ -116,6 +116,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     width: 697px;
+    padding: 33px 39px 126px;
 }
 
 .image-2024 {
@@ -132,6 +133,20 @@ body {
     line-height: normal;
     text-transform: uppercase;
 
+
+}
+
+.party-time {
+    justify-content: center;
+    background-color: bisque;
+    width: 1320px;
+    height: 482px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.time-paragraph {
+    align-items: center;
 }
 
 .product-image {
@@ -141,6 +156,7 @@ body {
     padding-right: 140px;
     width: 1600px;
     height: 7335px;
+
 
 }
 
@@ -168,12 +184,23 @@ body {
 
 .subscribe-newsletter {
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
+    background: rgba(255, 0, 0, 0.05);
     width: 1320px;
     height: 616px;
     flex-shrink: 0;
-    margin-right: 140px;
-    margin-left: 140px;
+    margin: auto;
+}
+
+.offer {
+    display: flex;
+    background-color: #FFF;
+    margin: auto;
+}
+
+.offer-image {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
 }
 
 
