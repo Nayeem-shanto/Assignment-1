@@ -129,6 +129,16 @@ body {
     text-transform: uppercase;
 
 }
+.product-image{
+    background: #FFF;
+    justify-content: center;
+}
+.image-1{
+    display: flex;
+}
+.image-2{
+    display: flex;
+}
 
 .footer-section {
     background: #070211;
