@@ -195,8 +195,15 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: #FFF;
+    
     margin: auto;
     padding-top: 50px;
+}
+.best-offer{
+    color: #F00;
+}
+.offer-2024{
+    color: #F00;
 }
 
 .offer-image {
@@ -230,7 +237,7 @@ body {
 }
 
 .footer-2 {
-    align-items: center;
+   justify-content: center;
 }
 
 .footer-3 {
