@@ -84,6 +84,7 @@ body {
 .welcome-party {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-image: url(../images/Vectorrr.png);
     width: 1320px;
     height: 600px;
@@ -95,19 +96,69 @@ body {
 
 
 
-.welcome-party-heading{
+.welcome-party-heading {
     color: #FFF;
     font-size: 64px;
     font-weight: 900;
-    line-height: 88px; /* 137.5% */
+    line-height: 88px;
+    /* 137.5% */
     letter-spacing: 7.04px;
     padding: 57px 94px 230px 126px;
-
 }
+
+.welcome-party-paragraph {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    width: 697px;
+}
+
 .image-2024 {
     padding: 68.11px 138px 67.23px 0px;
+}
+
+.join-now {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.footer-section {
+    background: #070211;
+    margin-top: 40px;
+    align-items: center;
     
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
 
-.footer-section {}
+.footer-2{
+    align-items: center;
+    justify-content: center;
+}
+.footer-3 {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
